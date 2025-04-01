@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Generator (Gemini)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Content Generator</h1>
+        <p>Enter your prompt below and click "Generate" to get content from Gemini.</p>
+
+        <label for="prompt-input">Your Prompt:</label>
+        <textarea id="prompt-input" rows="5" placeholder="e.g., Write a short poem about a rainy day"></textarea>
+
+        <button id="generate-button">Generate Content</button>
+
+        <div id="status-message" class="status"></div>
+
+        <h2>Generated Content:</h2>
+        <pre id="output-content" class="output-box">Your generated content will appear here...</pre>
+        <div id="error-message" class="error"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
